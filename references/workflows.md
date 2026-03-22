@@ -5,19 +5,19 @@
 2. Run `bash scripts/install.sh`.
 3. If Browser Relay already has the target Google account logged in, run:
    ```bash
-   claw-notebook-llm auth-relay
+   claw-notebooklm auth-relay
    ```
 4. Verify with:
    ```bash
-   claw-notebook-llm status
-   claw-notebook-llm raw list
+   claw-notebooklm status
+   claw-notebooklm raw list
    ```
 
 ## 2) Quick status / diagnosis
-1. `claw-notebook-llm status`
+1. `claw-notebooklm status`
 2. If auth fails:
-   - try `claw-notebook-llm auth-relay`
-   - or use `claw-notebook-llm login`
+   - try `claw-notebooklm auth-relay`
+   - or use `claw-notebooklm login`
 3. If auth passes → continue to notebook workflow
 
 ## 3) Research → ask

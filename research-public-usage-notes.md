@@ -1,6 +1,6 @@
 # Public usage notes for NotebookLM
 
-Research intent: identify how real people are using NotebookLM in practice, then translate that into route ideas for `claw-notebook-llm`.
+Research intent: identify how real people are using NotebookLM in practice, then translate that into route ideas for `claw-notebooklm`.
 
 ## Source fragments used
 

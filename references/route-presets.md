@@ -1,15 +1,15 @@
 # Route presets
 
-`claw-notebook-llm` exposes first-class route helpers so users can discover and use the strongest NotebookLM workflows quickly.
+`claw-notebooklm` exposes first-class route helpers so users can discover and use the strongest NotebookLM workflows quickly.
 
 ## Commands
 
 ```bash
-claw-notebook-llm routes
-claw-notebook-llm route-info research-dossier
-claw-notebook-llm route-prompt research-dossier summary
-claw-notebook-llm route-init research-dossier "AI market map" https://example.com/a.pdf https://example.com/b
-claw-notebook-llm route-ask research-dossier <notebook_id> summary
+claw-notebooklm routes
+claw-notebooklm route-info research-dossier
+claw-notebooklm route-prompt research-dossier summary
+claw-notebooklm route-init research-dossier "AI market map" https://example.com/a.pdf https://example.com/b
+claw-notebooklm route-ask research-dossier <notebook_id> summary
 ```
 
 ## Available route IDs

@@ -2,16 +2,16 @@
 
 ## Wrapper commands
 ```bash
-claw-notebook-llm status
-claw-notebook-llm install
-claw-notebook-llm auth-relay
-claw-notebook-llm login
-claw-notebook-llm routes
-claw-notebook-llm route-info research-dossier
-claw-notebook-llm route-prompt study-pack summary
-claw-notebook-llm route-init research-dossier "AI market map" https://example.com/a.pdf https://example.com/b
-claw-notebook-llm route-ask research-dossier <notebook_id> summary
-claw-notebook-llm raw list
+claw-notebooklm status
+claw-notebooklm install
+claw-notebooklm auth-relay
+claw-notebooklm login
+claw-notebooklm routes
+claw-notebooklm route-info research-dossier
+claw-notebooklm route-prompt study-pack summary
+claw-notebooklm route-init research-dossier "AI market map" https://example.com/a.pdf https://example.com/b
+claw-notebooklm route-ask research-dossier <notebook_id> summary
+claw-notebooklm raw list
 ```
 
 ## Health

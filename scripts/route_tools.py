@@ -107,7 +107,7 @@ def route_init(route, title, sources, wait, as_json):
         print()
     print("Suggested next commands:")
     for phase in route.get("prompts", {}):
-        print(f"claw-notebook-llm route-ask {route['id']} {notebook_id} {phase}")
+        print(f"claw-notebooklm route-ask {route['id']} {notebook_id} {phase}")
 
 
 def route_ask(route, notebook_id, phase, as_json):
@@ -126,7 +126,7 @@ def route_ask(route, notebook_id, phase, as_json):
 def main():
     routes = load_routes()
 
-    p = argparse.ArgumentParser(description="Route helpers for claw-notebook-llm")
+    p = argparse.ArgumentParser(description="Route helpers for claw-notebooklm")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sub.add_parser("list")

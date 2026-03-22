@@ -4,7 +4,7 @@
 
 Defaults used by this repo:
 - local venv: `./.venv`
-- wrapper command: `claw-notebook-llm`
+- wrapper command: `claw-notebooklm`
 - NotebookLM home: `~/.notebooklm`
 - auth file: `~/.notebooklm/storage_state.json`
 - Browser Relay URL: `http://127.0.0.1:18800` unless overridden by `OPENCLAW_BROWSER_RELAY_URL`
@@ -16,7 +16,7 @@ Defaults used by this repo:
    - use Browser Relay if the user's Google account is already logged into the attached browser
    - export Browser Relay session into NotebookLM auth state
 3. Fallback auth path:
-   - run `claw-notebook-llm login`
+   - run `claw-notebooklm login`
 4. This repo does not require a custom `/relay` skill.
    - built-in OpenClaw Browser Relay is enough
 5. For CI/CD or ephemeral runs, `NOTEBOOKLM_AUTH_JSON` can be used instead of a file.
@@ -26,7 +26,7 @@ Defaults used by this repo:
 Recommended command:
 
 ```bash
-claw-notebook-llm auth-relay
+claw-notebooklm auth-relay
 ```
 
 What it does:

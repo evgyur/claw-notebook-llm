@@ -13,18 +13,18 @@ mkdir -p "$LOCAL_BIN_DIR"
 "$VENV_DIR/bin/python" -m pip install "notebooklm-py[browser]"
 "$VENV_DIR/bin/python" -m playwright install chromium
 
-ln -sf "$ROOT_DIR/scripts/claw-notebook-llm.sh" "$LOCAL_BIN_DIR/claw-notebook-llm"
+ln -sf "$ROOT_DIR/scripts/claw-notebooklm.sh" "$LOCAL_BIN_DIR/claw-notebooklm"
 
 cat <<EOF
 Install complete.
 
 Wrapper command:
-  claw-notebook-llm
+  claw-notebooklm
 
 If '$LOCAL_BIN_DIR' is not in PATH, add this line to your shell profile:
   export PATH="$LOCAL_BIN_DIR:\$PATH"
 
 Next steps:
-  claw-notebook-llm status
-  claw-notebook-llm auth-relay
+  claw-notebooklm status
+  claw-notebooklm auth-relay
 EOF

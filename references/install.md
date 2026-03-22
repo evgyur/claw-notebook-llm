@@ -3,8 +3,8 @@
 ## 1) Clone the skill repo
 
 ```bash
-git clone --recurse-submodules https://github.com/evgyur/claw-notebook-llm.git ~/openclaw/skills/claw-notebook-llm
-cd ~/openclaw/skills/claw-notebook-llm
+git clone --recurse-submodules https://github.com/evgyur/claw-notebooklm.git ~/openclaw/skills/claw-notebooklm
+cd ~/openclaw/skills/claw-notebooklm
 ```
 
 If you already cloned without submodules:
@@ -23,7 +23,7 @@ This does the following:
 - creates `.venv/` in this repo
 - installs `notebooklm-py[browser]`
 - installs Playwright Chromium
-- links `claw-notebook-llm` into `~/.local/bin/`
+- links `claw-notebooklm` into `~/.local/bin/`
 
 ## 3) Authenticate
 
@@ -32,24 +32,24 @@ This does the following:
 If your Google account is already logged into the browser attached via OpenClaw Browser Relay:
 
 ```bash
-claw-notebook-llm auth-relay
+claw-notebooklm auth-relay
 ```
 
 Override the Browser Relay URL if needed:
 
 ```bash
-OPENCLAW_BROWSER_RELAY_URL=http://127.0.0.1:18800 claw-notebook-llm auth-relay
+OPENCLAW_BROWSER_RELAY_URL=http://127.0.0.1:18800 claw-notebooklm auth-relay
 ```
 
 ### Fallback: interactive login
 
 ```bash
-claw-notebook-llm login
+claw-notebooklm login
 ```
 
 ## 4) Verify
 
 ```bash
-claw-notebook-llm status
-claw-notebook-llm raw list
+claw-notebooklm status
+claw-notebooklm raw list
 ```

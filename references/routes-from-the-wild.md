@@ -17,10 +17,10 @@ Real-world NotebookLM usage patterns gathered from public web research (mainly R
 
 **Command shape:**
 ```bash
-claw-notebook-llm raw create "Compliance: ISO 27001"
-claw-notebook-llm raw source add ./manual.pdf
-claw-notebook-llm raw source add https://example.com/policy
-claw-notebook-llm raw ask -n <id> "Summarize the control gaps"
+claw-notebooklm raw create "Compliance: ISO 27001"
+claw-notebooklm raw source add ./manual.pdf
+claw-notebooklm raw source add https://example.com/policy
+claw-notebooklm raw ask -n <id> "Summarize the control gaps"
 ```
 
 ---

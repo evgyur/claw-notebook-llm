@@ -1,8 +1,8 @@
 # Manual review checklist
 
 - [ ] `SKILL.md` stays short and routes to first-level references.
-- [ ] The public command name is `/claw-notebook-llm`.
-- [ ] `/notebook-llm` and `/notebooklm` are documented as compatibility aliases.
+- [ ] The public command name is `/claw-notebooklm`.
+- [ ] `/notebooklm` is documented as the compatibility alias.
 - [ ] Auth path and shared-context risk are documented.
 - [ ] Browser Relay auth flow does not depend on a custom relay skill.
 - [ ] No local secrets, auth files, or browser profiles are committed.
